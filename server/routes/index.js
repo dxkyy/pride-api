@@ -7,6 +7,10 @@ const router = express.Router();
 router.get("/sexuality", (req, res) => {
   res.send(sexualities);
 });
+router.get("/sexuality/random", (req, res) => {
+  var sexuality = sexualities[Math.floor(Math.random() * sexualities.length)];
+  res.send(sexuality);
+});
 router.get("/sexuality/:search", (req, res, next) => {
   const search = req.params.search;
   if (search) {
@@ -22,6 +26,10 @@ router.get("/sexuality/:search", (req, res, next) => {
 
 router.get("/gender", (req, res) => {
   res.send(genders);
+});
+router.get("/gender/random", (req, res) => {
+  var gender = genders[Math.floor(Math.random() * genders.length)];
+  res.send(gender);
 });
 router.get("/gender/:search", (req, res) => {
   const search = req.params.search;
