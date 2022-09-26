@@ -90,7 +90,7 @@ Example Response:
 https://pride-api.herokuapp.com/api/gender
 ```
 
-This will return all gedners.
+This will return all genders.
 
 
 
