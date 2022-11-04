@@ -99,3 +99,4 @@ This will return all genders.
 I started this in Pride Month 2022, when I was working on a pride discord bot and was in need of an API like this. So inspired by [GitHub - JoeHart/pride-flag-api: LGBTQA+ Pride Flag API](https://github.com/JoeHart/pride-flag-api) I started to just code this :)
 
 
+(also the API isn't really fast/online all the time since im hosting it on heroku lmao)
